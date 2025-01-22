@@ -127,3 +127,4 @@
 #      pnpm dev
 
 #    - Pronto! O repositório foi clonado e você pode começar a trabalhar nele localmente.
+
