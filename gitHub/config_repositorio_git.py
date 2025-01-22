@@ -45,10 +45,12 @@
 
 # 8. **Fazer alterações e enviar para o GitHub**
 #    - Após editar o README.md, salve o arquivo e envie as alterações:
+#      git init
 #      git add README.md
 #      git commit -m "Atualizar README com informações do projeto"
-#      git push
-#    - **Dica:** Durante o comando `git push`, você pode ser solicitado a fornecer
+#      git remote add origin `https://github.com/seu-usuario/meu-projeto-exemplo.git`.
+#      git push -u origin master
+#    - **Dica:** Durante o comando `git push -u origin`, você pode ser solicitado a fornecer
 #      o nome de usuário e a senha do GitHub.
 #      - **Nome de Usuário:** Digite seu nome de usuário do GitHub. = "git config user.name "julio"
 #      - **Senha:** Digite sua senha do GitHub ou, se estiver usando autenticação = "git config user.senha "123"
